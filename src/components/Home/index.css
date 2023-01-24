@@ -1,0 +1,119 @@
+.home-background {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Roboto';
+  overflow: auto;
+}
+h1 {
+  font-weight: 400;
+  margin: 0px;
+  color: #334155;
+}
+.notes-heading {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #334155;
+}
+.span-head {
+  font-weight: 600;
+  color: #334155;
+}
+.my-notes-con {
+  align-self: flex-start;
+  margin: 20px;
+}
+.save-button {
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  background-color: #0284c7;
+  border-radius: 5px;
+  border-width: 0px;
+  color: white;
+  margin-top: 20px;
+}
+.cancel-button {
+  height: 40px;
+  width: 80px;
+  font-size: 15px;
+  background-color: transparent;
+  border-radius: 5px;
+  border-width: 1px;
+  color: #0284c7;
+  border-color: #0284c7;
+  margin-top: 10px;
+  font-family: 'Roboto';
+  border-style: solid;
+  margin-right: 20px;
+}
+.create-notes-con {
+  align-self: flex-start;
+  margin: 20px;
+}
+.text-area {
+  margin-top: 10px;
+  border-color: grey;
+  border-width: 0.5px;
+  width: 75vw;
+  font-family: 'Roboto';
+  padding: 20px;
+  outline: none;
+  font-weight: 400;
+  font-size: 12px;
+}
+.title-input {
+  border-width: 0px;
+  height: 30px;
+  margin-top: 10px;
+  outline: none;
+  font-weight: 500;
+  font-size: 15px;
+}
+.empty-note {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+  color: grey;
+}
+p {
+  margin: 0px;
+}
+.note-icon {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #334155;
+}
+.heading-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+button:hover {
+  cursor: pointer;
+}
